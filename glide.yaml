@@ -1,0 +1,10 @@
+package: github.com/timoreimann/glide-demo
+import:
+- package: k8s.io/kubernetes
+  version: v1.2.6
+  subpackages:
+  - pkg/client/restclient
+- package: speter.net/go/exp/math/dec/inf
+  version: 42ca6cd68aa922bc3f32f1e056e61b65945d9ad7
+  repo: http://gopkg.in/inf.v0
+  vcs: git
