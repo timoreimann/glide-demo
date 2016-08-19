@@ -1,2 +1,8 @@
 # glide-demo
-Demo project to play with glide.
+Running
+
+```
+glide up -s -v
+```
+
+shows a nil pointer dereference issue.
