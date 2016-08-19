@@ -1,0 +1,12 @@
+hash: d389ace77281e2239bffdbb9a15fa996d8876015f3cb61eec61b29193499967f
+updated: 2016-08-19T10:34:15.544214106+02:00
+imports:
+- name: k8s.io/kubernetes
+  version: 6776d72256b8c3ca8e0c3e457fc58889f2202a3e
+  subpackages:
+  - pkg/client/restclient
+- name: speter.net/go/exp/math/dec/inf
+  version: 42ca6cd68aa922bc3f32f1e056e61b65945d9ad7
+  repo: http://gopkg.in/inf.v0
+  vcs: git
+testImports: []
